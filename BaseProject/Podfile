@@ -1,0 +1,18 @@
+# pod install --no-repo-update
+platform :ios, '7.0'
+
+target 'BaseProject' do
+
+#use_frameworks!
+
+pod 'ReactiveCocoa'
+pod 'AFNetworking'
+pod 'SVProgressHUD','~> 2.1.2'
+pod 'MBProgressHUD'
+pod 'SDWebImage'
+pod 'MJRefresh'
+pod 'Qiniu'
+pod 'ZFDownload'
+pod 'Masonry'
+end
+
