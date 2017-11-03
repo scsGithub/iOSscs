@@ -30,7 +30,7 @@
     [super viewDidLoad];
     [self removedRefreshing];
     
-    self.title = @"添加图片";
+    self.title = @"添加图片de";
     
     [self setRightItemWithTitle:@"完成" selector:@selector(complete)];
     
